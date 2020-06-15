@@ -1,14 +1,12 @@
 # RPLidar Hector SLAM
 Using Hector SLAM without odometry data on a ROS system with the RPLidar A1.
 
-1. Install ROS full desktop version (tested on Kinetic) from: http://wiki.ros.org/kinetic/Installation/Ubuntu
-2. Create a catkin workspace: http://wiki.ros.org/ROS/Tutorials/CreatingPackage
-3. Clone this repository into your catkin workspace
-4. In your catkin workspace run `source /devel/setup.bash`
-5. Run `chmod 666 /dev/ttyUSB0` or the serial path to your lidar
-6. Run `roslaunch rplidar_ros rplidar.launch`
-7. Run `roslaunch hector_slam_launch tutorial.launch`
-8. RVIZ should open up with SLAM data
+1. Clone this repository into your catkin workspace
+2. In your catkin workspace run `source /devel/setup.bash`
+3. Run `chmod 666 /dev/ttyUSB0` or the serial path to your lidar
+4. Run `roslaunch rplidar_ros rplidar.launch`
+5. Run `roslaunch hector_slam_launch tutorial.launch`
+6. RVIZ should open up with SLAM data
 
 # Sources
 [RPLidar](https://github.com/robopeak/rplidar_ros)<br />
